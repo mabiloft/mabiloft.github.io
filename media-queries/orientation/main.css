@@ -1,0 +1,16 @@
+
+
+body {
+  background-color: #FFD23F;
+}
+
+@media screen and (orientation: landscape) {
+  body {
+    background-color: #EE4266;
+  }
+}
+
+
+.white {
+  color: #ffffff;
+}
