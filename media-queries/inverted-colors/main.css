@@ -1,0 +1,14 @@
+
+body {
+  text-align: center;
+}
+
+.text {
+  font-size: 24px;
+}
+
+@media screen and (inverted-colors: inverted) {
+  .text {
+    font-size: 36px;
+  }
+}
