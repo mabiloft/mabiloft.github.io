@@ -25,6 +25,6 @@
 
 @media screen and (prefers-reduced-motion: reduce) {
   .pulse {
-    animation: pulse 0.00001s;
+    animation: none;
   }
 }
