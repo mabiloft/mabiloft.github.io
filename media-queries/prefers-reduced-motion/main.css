@@ -1,0 +1,30 @@
+.pulse {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background-color: #ee4266;
+  margin: 148px auto;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 0.8);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(255, 82, 82, 0);
+  }
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+  }
+}
+
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .pulse {
+    animation: pulse 0.00001s;
+  }
+}

@@ -1,0 +1,40 @@
+
+.appbar {
+  width: 100%;
+  height: 64px;
+  background-color: #EE4266;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.fab {
+  width: 64px;
+  height: 64px;
+  border-radius: 64px;
+  background-color: #424242;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+  body {
+    background-color: #424242;
+  }
+
+  .appbar {
+    background-color: #212121;
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+  .fab {
+    background-color: #EE4266;
+  }
+
+}
