@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+html,
+body {
+  margin: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  width: 40%;
+  margin: 96px auto;
+}
+
+@media screen and (max-width: 1600px) {
+  .container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
+h2 {
+  font-weight: 700;
+}
